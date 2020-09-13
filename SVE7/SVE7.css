@@ -1,0 +1,83 @@
+/*This is CSS of SVE7 plugin*/
+/*Copyright all rights reserved by VORTEX web-development company*/
+/*2017 year*/
+
+.simX_eff_0{
+	opacity: 0;
+	-webkit-transition:all ease-in-out 1s;
+	-webkit-transform:translateX(-100%);
+}
+.simY_eff_0{
+	opacity: 0;
+	-webkit-transition:all ease-in-out 1s;
+	-webkit-transform:translateY(50%);
+}
+.simD_eff_0{
+	opacity: 0;
+	-webkit-transition:all ease-in-out 1s;
+	-webkit-transform:translateY(-100%);
+}
+.simX_eff_1{
+	opacity: 1;
+	-webkit-transition:all ease-in-out 1s;
+	-webkit-transform:translateX(0%);
+}
+.simY_eff_1{
+	opacity: 1;
+	-webkit-transition:all ease-in-out 1s;
+	-webkit-transform:translateY(0%);
+}
+.simD_eff_1{
+	opacity: 1;
+	-webkit-transition:all ease-in-out 1s;
+	-webkit-transform:translateY(0%);
+}
+
+.normalizeX{
+	-webkit-transform:translateX(-50%);
+	opacity: 0;
+}
+.normalizeY{
+	-webkit-transform:translateY(50%);
+	opacity: 0;
+}
+.normalizeD{
+	-webkit-transform:translateY(-100%);
+	opacity: 0;
+}
+
+.elParNode{
+	overflow: hidden;
+}
+
+.Dmenu{
+	-webkit-transition:all ease-in-out .5s;
+	height: 400px;
+	padding-bottom: 20px;
+}
+
+.Zzoom0{
+	transform:scale(1.5);
+	opacity: 0;
+}
+.Zzoomparent{
+	-webkit-transition:all ease-in-out .5s;
+	opacity: 0;
+}
+.Zzoom1{
+	-webkit-transition:all ease-in-out .5s;
+	transform:scale(1);
+	opacity: 1;
+}
+
+.spinRound0{
+
+	-webkit-transform: rotateY(180deg);
+	opacity: 0;
+}
+
+.spinRound1{
+	-webkit-transition:all ease-in-out .5s;
+	-webkit-transform: rotateY(0deg);
+	opacity: 1;
+}
